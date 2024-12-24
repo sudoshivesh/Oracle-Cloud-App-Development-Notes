@@ -87,14 +87,15 @@
 - Integration Development and Management Workflow
     - Define Connection -> Build Integration Flow Logic -> Map Data -> Activate Integration -> Monitor Integration
     - Basic Integration Development Workflows Steps
-          - If necessary, create new connection (select adapter and define connection)
-          - Create a new integration (Select the App Driven Orchestration Style and optionally you can add it to a pkg
-          - Add and configure the trigger (source) connection
-          - Add and configure the invoke (target) connection
-          - Map data for the invoke connection request
-          - map data for the response to be returned to the source (if applicable)
-          - Define the key business identifier for monitoring purpose
-          - Activate and test.
+      
+          1. If necessary, create new connection (select adapter and define connection)
+          2. Create a new integration (Select the App Driven Orchestration Style and optionally you add it to a pkg
+          3. Add and configure the trigger (source) connection
+          4. Add and configure the invoke (target) connection
+          5. Map data for the invoke connection request
+          6. Map data for the response to be returned to the source (if applicable)
+          7. Define the key business identifier for monitoring purpose
+          8. Activate and test
 
 
 
