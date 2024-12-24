@@ -98,7 +98,7 @@
           8. Activate and test
     - The map you create are called transformation maps and use the eXtensible Style Sheet (XSL). A visual mapper enable you to map fields between appliction by dragging source field into targer field.
  
-### 5. Creating OIC Adapter Connection
+### 5. Creating OIC Adapter Connection....
 
 
 
