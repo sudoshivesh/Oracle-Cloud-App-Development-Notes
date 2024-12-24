@@ -100,5 +100,39 @@
  
 ### 5. Creating OIC Adapter Connection....
 
+- Oracle Cloud Adapter : Benifits
+    - Adapter simplyfy and accelrate integration with SaaS and on-premises application
+    - Improve developer productivity by allowing an interface, which is user driven
+    - Provide runtime benifit by session management and security
+    - With adapter, everything is packaged, covered and transparent to end user
+    - Adapter allow you to generate normalized, integration-friendly web services, thereby making the mapping much faster
+- Feature of Oracle Cloud Adapter
+    - Provide both design time and runtime features for implementing and depploying specific integration use case
+    - Session Management, Simple to configure, Standard error-handling capabilities, Native Suport
+    - High availability, scalability, and reliability
+- Available OIC Adapter
+    - Oracle Cloud SaaS Application
+    - Third-Party Cloud SaaS Application
+    - On-Premises Enterprise Application
+    - Social/Productivity Application
+    - Generic Technology Adapters : Databases, FTP/File Servers, REST, SOAP
+- What is a Connection?
+    - Connection define INFORMATION about the instance o each configuration you are integrating.
+    - A connection is based on adapter
+    - Connection are used in one of two roles: - trigger (inbound) & Invoke (Outbound)
+    - Trigger (inbound) : Define a SOAP or REST interface allowing client to invoke integration flow
+    - Invoke (outbound) : Used to define an external service or system that can be called from an integration
+- Creating a connection
+    - Select a Adapter -> Provide Basic Info -> Configure Connection Properties -> Configure Security -> Test the Connection
+    - **Configure Connection Properties AND Configure Security** : Are specific to the chosen adapter
+    - 60+ Adapters defined in OIC
+    - Oracle Servce Cloud (RightNow), Oracle Engagement Cloud, Oracle ERP Cloud, Oracle HCM Cloud, salesforce etc.
+    - The defined 11 adapters in the guide is from page 115-137
+
+
+### 6. Configuring Trigger Connections
+
+- Integration Development : 
+
 
 
