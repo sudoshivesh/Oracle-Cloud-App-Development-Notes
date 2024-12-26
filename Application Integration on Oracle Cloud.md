@@ -132,7 +132,73 @@
 
 ### 6. Configuring Trigger Connections
 
-- Integration Development : 
+- Integration Development
+    - To tell OIC how to map data between your application use *Graphical Mapper*
+    - To see how well your integration are running & monitor error use *Monitoring dashboard*
+    - Define Connection -> Build Integration Flow Logic -> Map Data -> Activate Integration -> Monitor Integration
+- Message Exchange Pattern between Client Apps & OIC Integrations
+    - Synchronous request/response
+    - Asynchronous request/callback
+    - Asynchronous request (one-way) - aka "fire and forget"
+    - Event-based
+- These 27 adapter can be used in the trigger role for an integration flow (page -168)
+    - File Adapter, FTP Adapter, REST Adapter, SOAP Adapter, MySQL, SAP Adapter etc.
+- Getting Started - Trigger Connections
+    - Allowed while naming : English Alphabet, number, underscore, and dashes
+    - Not Allowed: Blank Spaces, Special Character, Multibyte Character
+- Using the Adapter Endpoint Configuration Wizard (Refer 171-200) for given 6 Wizard
+
+### 7. Configuration Invoke Connections
+- Integration Development Phases
+    - Define Connection -> Build Integration flow logic -> Map Data (Use OIC Data Mapper) -> Activate Integration -> Monitor Integration (track payload & manage error)
+    - Over 60 adapters are pre-installed in your OIC environemnt. Almost every adapter type is used in the invoke role for an integration flow
+    - Read about the 8 configuration wizard from page(211-260)
+
+### 8. Data Mapping
+- OIC Data Mapping
+    - A VISUAL MAPPER enables you to define data mapping b/w d/f data structure by using drag and drop
+    - Transformation is supported between XML and XML (XSLT, XPath, OIC Lookups, Expression Builder). It create for-each statement automatically.
+    - Transaformation maps use XSL. Required field are identified by a blue asterisk
+    - Mapping supports both *qualified and unqualified schemas*
+- Creating Transformation Outside of OIC
+    - Some task can't be performed in the OIC mapper. We will use **JDeveloper.**
+    - The XSLT Map Editor provides the following edit views under the design view :  Map View and XSLT View
+    - When using Custom javascript function: Two option are offered in OIC- a) Register as a custom XPath function b) Register as a Javascript function call
+- Using OIC Lookups
+    - Use Lookups to create in-memory "tables"
+    - It maps different terms used to describe the same item across your application
+    - Lookups are **resusable**
+    - Lookups associate value used by one application for a specific field to the values used by other application for the same field
+    - For Example: Country Code, city codes, currency codes and so on...
+ 
+
+### 9. Orchestration Integration Actions
+- Define Connection -> **Build Integration Flow Logic (action for facilitating orchestration inegration flow logic)** -> Map Data -> Activate Integration -> Monitor Integration
+- Orchestration Styles : App Driven & Scheduled
+    - App Driven : Interface invoked by a client application or API. It create an integration tht uses *an event or business object* to trigger the integration. **CallBack activities** (to end a process and respond back to sender) and **end activities** (to end a process without responding back to the sender) are included in the asynchronous activation
+    - Scheduled : Excecutes automatically or on-demand for batch bulk, integration or file processing. Create an integration that uses a *schedule* to trigger the integration instead of an adapter
+- Editing view option
+    - Canvas View: Display the default view of integration canvas
+    - Psedu View : Display the integration vertically with child nodes indented.
+ 
+- invokes can be placed within (this is same for **action**)
+    - The main flow path
+    - The golbal fault handler
+    - For-each loops
+    - while loops
+    - branch of a switch activity
+    - Scopes
+    - Scope fault handlers
+- You cannot **Delete** a trigger connection connection in an integration (Delete option isn't available)
+- Action are organized into five sections: (with thier functionality)
+    - Data: Assign, EDI Translate, Map, Stage File
+    - Call: Integration, javascript, Process
+    - Collection: For Each, Scope, Switch, While
+    - Genral: Logger, Note, Notification, Wait
+    - End: Re-throw fault, Throw new Fault, Fault Return, Return, Callback, Stop
+
+
+
 
 
 
