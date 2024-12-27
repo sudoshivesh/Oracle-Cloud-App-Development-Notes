@@ -48,4 +48,17 @@
 |Computer|Visual Builder|Visual Builder|
 |Containers|Blockchain & Digital assistant||
 
+
+### Application Development Services
+- Four major application development cloud services
+    - Visual Builder Studio
+    - Oracle Mobile Hub
+    - Oracle Digital Assistant
+    - Oracle Blockchain
+
+### Applicationn Deployment Services
+- Oracle Cloud Infrastructure (OCI)
+- WebLogic Server for OCI
+- Microservice and Containers
+- Container Engine for Kubernetes (OKE)
   
