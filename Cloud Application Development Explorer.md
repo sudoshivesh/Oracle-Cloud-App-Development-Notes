@@ -43,6 +43,7 @@
     - Low-Code "Citizen" Developer
 
 |App & Service Deployment|Application Development|Developer Productivity|
+|-|-|-|
 |WLS|Mobile Hub|API Gateway|
 |Computer|Visual Builder|Visual Builder|
 |Containers|Blockchain & Digital assistant||
