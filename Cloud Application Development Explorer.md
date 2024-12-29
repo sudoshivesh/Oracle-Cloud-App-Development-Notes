@@ -56,9 +56,10 @@
     - Oracle Digital Assistant
     - Oracle Blockchain
 
-### Applicationn Deployment Services
-- Oracle Cloud Infrastructure (OCI)
-- WebLogic Server for OCI
-- Microservice and Containers
-- Container Engine for Kubernetes (OKE)
-  
+- Applicationn Deployment Services
+    - Oracle Cloud Infrastructure (OCI)
+    - WebLogic Server for OCI
+    - Microservice and Containers
+    - Container Engine for Kubernetes (OKE)
+
+    **OCI** - It is a set of Complementary cloud services in Oracle Genration 2 Cloud. Using the resources in OCI, a user can set up, configure and use various Cloud Services.
