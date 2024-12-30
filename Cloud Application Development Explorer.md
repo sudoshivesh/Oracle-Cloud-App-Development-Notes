@@ -63,7 +63,7 @@
     - WebLogic Server for OCI
     - Microservice and Containers
     - Container Engine for Kubernetes (OKE)
-
+### ------------------------------------------------------------------------------------------
 ### Application Deployment Service
 
 - Oracle Cloud Interface
@@ -143,3 +143,56 @@
     - It increases ease and efficiency of container image creation compared to VM images.
     - It also enables application-centric management and resource isolation and utilization, predictable application performance with high efficiency and density.
     - Agile application creation and deployment
+
+- ORACLE CONTAINER ENGINE FOR KUBERNETES (OKE)
+    - This is a fully managed, scalable, and highly available service that you can use to deploy your containerised applications to the cloud.
+    - Use OKE when your development team wants to reliably build, deploy, and manage cloud native applications.
+    - You access the OKE cloud service to define and create Kubernetes clusters using the OCI Console with that or the REST API.
+    - Then you can access the created cluster directly using the Kubernetes command line, the Kubernetes dashboard web app, or the Kubernetes API.
+    - OKE is integrated with OCI Identity and Access Management, which provides easy authentication with the native US identity functionality.
+
+- WHY TO USE OKE?
+    - reducing complexity as well as the time involved
+    - eliminating the need to integrate Kubernetes with a registry
+    - built-in processes for container lifecycle management
+    - OKE enables developers to get started and deploy containers quickly
+    - It provide DevOps teams visibility and control for Kubernetes management.
+    - OKE combines production-grade container orchestration of open Kubernetes with control, security, identity access management, and high predictable performance of Oracle's generation 2 Cloud Infrastructure.
+
+### ------------------------------------------------------------------------------------------
+### Developer Productivity Series (Cloud Services that will help enrich the development process)
+- Key Component of Visual Builder Studio
+    - Two Cloud Services that will help enhance developer productivity **Oracle Vision Builder Studio and Oracle API Gateway.**
+    - Key Component of VBS (Visual Builder Studio) : Organization, Project, VB Studio Designer, WorkSpace, Git Repository, Maven Repository, Job, Visual Application, Data
+
+    - Organization : the topmost entity in the project structure of VB Studio
+    - Project: a collection of VB Studio features. You use a project to host source code files, track issues, collaborate on code, build and deploy your applications. A project can host multiple Git repositories.
+    - VB Studio Designer: Browser based development environment
+    - WorkSpace : all work in VB Studio is done in the context of WorkSpace, a private area where you can work on visual applications.
+    - Git Repository: an open source code management and distributed motion control tool to host source code files.
+    - Maven Repository : a hosted binary repository to store build artifacts, library files, and dependencies from Maven applications.
+    - Job : a configuration that defines that application's builds. You can create a job to perform various actions, such as package artifacts, branch end commands, run unit test scripts, and deploy application artifacts.
+    - Visual Application: a responsive web or native mobile application developed by using VB Studio's browser-based development environment.
+    - Data: data for visual applications can come from a database in the form of business objects, Oracle REST services or external REST services.
+
+- Manage the Application Development Cycle Part 1
+    - Application Lifecycyle management : plan, develop, collaborate, build, integrate with external software, import-export project data, and project data
+    - Plan : The plan activity in Visual Builder enables the user to manage environments, track issues, and manage Agile boards
+    - ```
+      - Environment : you can access and manage the project's environment, that is create and delete environments, add or remove service instances from existing environments, update the details of the environment, view the details of its service instances, and view deployments.
+      - Issues : To track and manage tasks, defects, and features
+      - Agile Board :  To manage and update issues and help plan your team's workflow.
+      ```
+    - Develop : 
+    - ```
+      - Git Repositories : a source code management and distributed version control tool the host source code files. A project can host multiple Git repositories
+      - Designer : an editing and publishing environment that you use to create web or mobile applications or to customize your Oracle Cloud applications through application extensions.
+      - Maven : a hosted binary repository to store build artifacts, library files, and dependencies for Maven applications. Use the project's Maven repository for managing binary files and dependencies.
+      ```
+    - Collaborate
+    - ```
+      - Merge Request : you may require team members to create a merge request for each branch of the Git repository and ask reviewers to review and approve the code
+      - Wiki : This is a built in Wiki system to help your team alter and manage Wiki pages.
+      - Snippets : Snippets to share reusable pieces of source code. A Snippet could include a small block of usable source code or text that could be incorporated into larger modules.
+      ```
+      
