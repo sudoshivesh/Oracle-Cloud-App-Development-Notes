@@ -122,4 +122,24 @@
 
 
 - Microservice and Containers
-    - 
+    - Cloud native apps are created with microservices architecture. Each application is a collection of small services. Each runs on its own process and communicates with a lightweight mechanism, often as an HTTP resource API. The microservices are built around business requirements and can be deployed independently.
+    - Each microservice can be deployed, upgraded, scaled, and restarted independent of other services in the application by using an automated system, enabling frequent updates to live applications without impacting any customers.
+    - Five characteristics of microservices. They are highly **maintainable and testable, independently deployable, organized around business capabilities, loosely coupled, and owned by a small team.**
+
+- Container
+    - A container is a standard unit of software that packages up the code and all its dependencies. Containers hold components such as executables, binary code, libraries, and configuration files. Container hold all the component that are needed to run the application
+    - Containerization of applications in cloud computing ensures reliability, consistency, and speed in the distributed platform environment. Applications are safer in containers, and they provide the strongest isolation capabilities. A single container can run small microservices or large software applications.
+
+- Cloud Native Application
+    - Container-based application packaging and deployment was initially started by Google
+    - Container-based application deployment can be implemented using **Oracle Container Engine for Kubernetes, OKE.**
+    - Cloud native applications are packaged as containers, a container in which is a lightweight, standalone, executable package of software that includes everything needed to run an application. That is code, runtime, system tools, system libraries, and settings.
+    - Containers are for both efficiency and speed compared with standard virtual machines. They are highly accessible, scalable, easily portable from one environment to another and fast to create or tear down, making them ideal for building and learning applications composed of microservices.
+
+- WHY THE NEED FOR CONTAINERIZED APPLICATION DEPLOYMENT
+    - It implements environmental consistency across development, testing, and production. It is loosely coupled, distributed, and elastic liberated microservices.
+    - Applications are broken into smaller independent pieces, and it can be deployed and managed dynamically. It enables clear demarcation of development and operational challenges.
+    - It can be implemented on different operating systems like Ubuntu, RHEL, or OS on-premises, on major public clouds, and anywhere else
+    - It increases ease and efficiency of container image creation compared to VM images.
+    - It also enables application-centric management and resource isolation and utilization, predictable application performance with high efficiency and density.
+    - Agile application creation and deployment
