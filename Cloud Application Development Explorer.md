@@ -195,4 +195,27 @@
       - Wiki : This is a built in Wiki system to help your team alter and manage Wiki pages.
       - Snippets : Snippets to share reusable pieces of source code. A Snippet could include a small block of usable source code or text that could be incorporated into larger modules.
       ```
+    - Build
+      ```
+      - Builds : a job is a configuration that defines an application's builds. A build is the result of a job's run
+      - Pipeline : a pipeline lets you define dependencies of jobs and create a path or a chain of builds. A pipeline helps you in running continuous integration jobs and reduces network traffic.
+      ```
+    - Integrate with external Software
+      ```
+      - Use webhooks : Visual Builder uses webhook to integrate with Jenkins, GitHub, Stack, Oracle Social Network, and Docker
+      - Docker : If there is need to use an external Docker registry, such as Docker Hub or Oracle Cloud Infrastructure Registry
+      ```
+    - Import Export project data
+      ```
+      - Releases: A release enables you to provide a stable code and artifacts of your applications that project users can download.
+      ```
+    - Project management : VB Studio component can be used to manage the development process for application other than visual application or application extension
+      ```
+      - Git Repository - for storing your source code
+      - Pipeline - to provide CI/CD to oracle cloud and issue tracking system, team wikis
+      - You may use external repositories like: GitHub, Bitbucket
+      ```
+  
+
+      
       
