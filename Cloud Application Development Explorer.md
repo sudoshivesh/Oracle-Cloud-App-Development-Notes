@@ -119,3 +119,7 @@
     - The domain has a database with GRF schemas. As you see, the stack also has one bastion host. The bastion host is configured for WLS private subnets. The bastion host enables controlled access from public networks.
     - The Oracle WebLogic Server domain consists of one administration server and one or more managed servers to host the Java application deployments.
     - OCI Component comprise Oracle WL Cloud. they are : Oracle WLS, Marketplace, Resource manager, Compute, Virtual Cloud Network, Load balancer, Database, key management, Identity
+
+
+- Microservice and Containers
+    - 
