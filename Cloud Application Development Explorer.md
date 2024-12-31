@@ -215,7 +215,26 @@
       - Pipeline - to provide CI/CD to oracle cloud and issue tracking system, team wikis
       - You may use external repositories like: GitHub, Bitbucket
       ```
-  
+
+
+- Preview Share and Deploy Visual Application
+    - VBS allows the user to preview the application developed, in whole or in parts, which enables agile development.
+    - You can share individual applications with others without pushing or making changes to the code in the Git repository branch.
+    - VBS enables developers to easily deploy applications to the preferred target, whether it's a staging or production instance of Oracle Cloud applications or OCI Service Instance
+
+- What You Can Do with API Gateway?
+    - Oracle API Gateway: The portfolio of services for the Cloud native developer. Fully managed service by Oracle. There are n servers to provision and maintain
+    - When using Oracle function, you can create RESTful APIs that are serverless. Just develop your function and deploy as an API
+    - **WHAT CAN I DO WITH API GATEWAY**
+    - Oracle Functions lets developers focus on coding without worrying about the infrastructure.
+    - Using API Gateway, developers can extend their applications with functions without using the SDK.
+    - RESTful APIs allow applications to interact, providing greater value in the business processes that they support
+    - You can use API Gateway to protect any RESTful servers running on container OKE
+
+    - **Key API Gateway Feature**
+    - Policy enforcement: rather than exposing your services directly, you can use API Gateway to define policies
+    - Metrics: Monitor the health and performance of all your services as the request response traffic flows through the API Gateway
+    - Logging : Log important details about the traffic that moves through your services to better diagnose issues
 
       
       
