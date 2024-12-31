@@ -6,17 +6,21 @@
     Become a Cloud App Developer
 
     Sir guidance: 
-
+### Overview
 - Key Feature of Oracle Cloud Platform (Why to choose OCP)
     - Open: In term of choosing language/open source technology. Oracle Java SE, Python, Ruby, PHP, Oracle javascript Extension Tool (JET)
     - Modern: In tern of architectural styles/ tools (Agile/DevOps)
     - Easy: in terms of ease of integration
-- it offers a **second genration cloud**
 
+- it offers a **second genration cloud**
+### -------------------------------------------------------------------------------------
+
+### Intro to Oracle's Cloud Appliction Development Platform
+- 
 - ![image](https://github.com/user-attachments/assets/62b39ba7-ea79-412f-9ceb-1ce3396ca163)
 
 - Machine Learning Models supported in Oracle cloud
-    - Jupyter, Tensorflow, PyTorch, Plotly, Matplotlib
+    - Jupyter, Tensorflow, PyTorch (Facebook), Plotly, Matplotlib
 - Modern Application Development Platform supported by Oracle Cloud
     - Kubernetes, Docker, Terraform, Ansible, OCI, Oracle WebLogic Server
     - Kubernetes is an oracle managed container orchestration service that help to build modern application
@@ -27,22 +31,26 @@
     - Oracle WebLogic Server is a unified and extensible platform for developing, deploying and running enterprise applications such as Java for on premises and in the cloud
  
 - Oracle Application Development Tools
-    - Oracle Visual Builder Studio
-    - Oracle Digital Assistant
-    - Oracle REST Data Services
-    - Oracle SQL Developer
-    - Agile
+    - Oracle Visual Builder Studio : Rapidly create and extend Oracle Cloud application's functionality with web, mobile, and progressive web applications.
+    - Oracle Digital Assistant: Quickly and easily build AI powered assistants that connect to your back end applications
+    - Oracle REST Data Services: Oracle REST Data Services or RDS bridges HTTPs and in Oracle database.
+    - Oracle SQL Developer: free integrated development environment that simplifies the development and management of Oracle database in both traditional and Cloud deployments
+    - Agile: Leading provider of product lifecycle management software solutions.
+
 - Oracle Cloud Application Development Platform Features
     - Continious Integration, Fast and Easy, Ease of Building Application, Migrating legacy Application
-    - Continious Development, Faster time to market and higher productivity
+    - Continious Development, Faster time to market and higher productivity. Developers can easily build application using containers
 
 - Type of Development
-    - Enterprise Application Developer
-    - Cloud Native Developer
-    - Mobile Application Developer
-    - API Developer
-    - Blockchain Developer
-    - Low-Code "Citizen" Developer
+    - Enterprise Application Developer :They create new enterprise applications or extend existing ones.
+    - Cloud Native Developer (polyglot programming) :you can use any language or framework you choose, because you are essentially packaging your application, service, microservice, or function in a container designed to run in any available polyglot runtime environment.
+    - Mobile Application Developer: they focus their attention on building cloud-based applications that are exposed to end users exclusively, by creating apps which users can deploy to their mobile devices.
+    - API Developer : they develop REST APIs that are designed to be consumed by other application developers.
+    - Blockchain Developer: they develop what is known as chain code, written in Go, Node.js, or Java that defines the data schema in a blockchain ledger and then performs updates or responds to queries from other applications.
+    - Low-Code "Citizen" Developer (Local Developer) : insteaad of writing code, these developers almost work exclusively with a visual drag and drop platform for designing, building, and deploying the new web-based applications.
+
+### ----------------------------------------------------------------------------------------
+### APPLICATION DEVELOPMENT SERVICE
 
 |App & Service Deployment|Application Development|Developer Productivity|
 |-|-|-|
@@ -50,21 +58,53 @@
 |Computer|Visual Builder|Visual Builder|
 |Containers|Blockchain & Digital assistant||
 
-
-### Application Development Services
 - Four major application development cloud services
     - Visual Builder Studio
     - Oracle Mobile Hub
     - Oracle Digital Assistant
     - Oracle Blockchain
 
+- Oracle visual builder studio
+    - Visual Builder Studio integrates an agile collaborative team development platform with code management and continuous-integration, continuous-delivery automation extended with the visual development experience for creating web and mobile applications
+    - providing project templates, environment management, and a set of dedicated build steps and pipelines for publishing and managing those applications
+    - It has built-in repositories for hosting code and binaries in Git and Maven and a  continuous integration service to automate the application's build and test, an agile board and an issue tracking system for tracking sprints, tasks, and defects, a tightly integrated continuous-delivery service with Oracle Cloud applications, and a rich visual designer integrated with source control system, Git, to enable developers to manage changes, apply version control, and collaborate with teams.
+    - Feature
+    - can be accessed anywhere using different types of devices, simple and powerful application-building tool, works with multiple sources of data, Oracle Cloud applications ready
+    - VBS also has powerful visual app design tools.
+
+- Oracle Mobile Hub
+    - Oracle Mobile Hub is a cloud-based service providing a unified hub for developing, deploying, maintaining, monitoring, and analyzing mobile apps
+    - One stop development platform for mobile app developers
+    - Oracle Mobile Hub provides an SDK for Android apps, iOS applications, Cordova applications, JavaScript applications, Xamarin Android apps, and Xamarin iOS apps.
+    - Features
+    - With the API-first concept, you create web, mobile, and progressive web apps in minutes from your browser with single-button publishing.
+    - Mobile Hub provides users with optimized app experience with pre-populated Oracle SaaS catalog. You can create native, hybrid, and no-code development.
+    - It is built for SDKs, native apps, Cordova, and JavaScript extension toolkit.
+    - It provide offline data sync
+    - Mobile Hub has the ability to extend, secure, integrate, and manage user profiles.
+    - oracle Mobile hub Pltform API
+    - Users can also build custom API by using Express API Designer and API Designer.
+
+- Oracle Digital Assistant
+    - Digital assistants are virtual devices that help users to accomplish tasks through natural language conversations without having to seek out and wade through various apps and websites.
+    - A digital assistant enables the user to interact with multiple skills through a unified user interface.
+
+- oracle Blockchain
+    - Oracle Blockchain Platform is a permissioned blockchain that provides a closed ecosystem where only invited organizations can join the network and keep a copy of the ledger.
+    - Business Logic for Blockchain-- you can create smart contracts, also known as chaincodes, for real-time B2B transactions or to check conditions, such as matching purchase orders, invoices, and shipping information, prior to triggering payment and updating the ledger.
+    - You can expose these through a REST proxy gateway or invoke them by the client SDK.
+    - Quickly Build and Deploy Chaincode, Endorsement Policies, Event notification
+    - Costs-- use blockchain to accelerate transactions and eliminate cumbersome offline reconciliations by using a trusted shared fabric of common information.
+    - 
+
+### ------------------------------------------------------------------------------------------
+### Application Deployment Service
+
 - Applicationn Deployment Services
     - Oracle Cloud Infrastructure (OCI)
     - WebLogic Server for OCI
     - Microservice and Containers
     - Container Engine for Kubernetes (OKE)
-### ------------------------------------------------------------------------------------------
-### Application Deployment Service
 
 - Oracle Cloud Interface
     - It is a set of Complementary cloud services in Oracle Genration 2 Cloud. It can be used to configure many different components required for Oracle Cloud.
