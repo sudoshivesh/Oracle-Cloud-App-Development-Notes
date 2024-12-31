@@ -236,5 +236,6 @@
     - Metrics: Monitor the health and performance of all your services as the request response traffic flows through the API Gateway
     - Logging : Log important details about the traffic that moves through your services to better diagnose issues
 
-      
-      
+
+### ----------------------------END OF THE MODULE--------------------------------------------
+
