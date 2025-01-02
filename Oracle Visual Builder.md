@@ -19,7 +19,7 @@
 - Single Page Application (index.html) **header, flows & Pages and footer**
 - Variant of single page application: FA v1 Application (Stand-alone) and FA v2 Application (App UI)
 - |Unified App Defines|App UI comprises|
-  __
+  |-|-|
   |Content and properties|Page and Page flows|
   |Redwood JS stripe| HTML,OJ, and OJ-SP|
   |Common VB service|Action chains|
