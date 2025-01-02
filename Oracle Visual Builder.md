@@ -23,3 +23,22 @@
   |Content and properties|Page and Page flows|
   |Redwood JS stripe| HTML,OJ, and OJ-SP|
   |Common VB service|Action chains|
+
+- Fusion Application developed in VB are based on the technology stack known as **Redwood Stripe**
+- **App UI** application are implemented as modules plugged into the Unified App; **Stand-alone App** are independent copies that are not sharing code
+- Base Applications, which are produced by Oracle reffred as "factory extension"
+- Visual Appliation Development Wokflow :
+  - Create a new application or join an existing version -> Create a service connection-> Create business object -> Import real data and check the schema -> Develop the web or mobile app-> Secure the application -> Stage and test the application -> Publish the application
+- Your work is not visible unless: a) merge it b) chose to share with other c) deploy
+- An environment is also known as **pointer**, must be a seperate VB instance
+- To develop an applicattion, you need to define its metadata (JSON) and create its pages and artifacts
+- When you open an application in the Navigator, the structure of the application is displayed as nodes and subnodes
+- Also the Designer has dedicated editors for each if the building blocks used to build your application
+- In the diagram view : a) COLLAPSE or EXPAND flows for readability b) Properties pane displays page and subflow details c) Audits pane automatically show errors and warnings
+- Also use LIVE mode to test code, DESIGN to add and configure components and CODE to edit the page's HTML
+- Use COMMIT to snapshot your wirk as of a specific time. Commits document the process of saving files to the repository for AUDITs, ROLLBACK and EASIER CODE MANAGEMENT
+- Web and Mobile apps created using Visual Builder can use the Oracle Identity Cloud Service (IDSC)
+
+
+### Configure and Manage Service Connections in Visual Application
+
