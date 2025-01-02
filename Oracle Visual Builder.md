@@ -41,4 +41,32 @@
 
 
 ### Configure and Manage Service Connections in Visual Application
-
+- Basic service information: Overvie, Servers, Endpoints, Headers, Tranform, Sources
+- You can add edit or remove backend servers and you may have more than one server
+- For static service connetion a list of service endpoint is display, for dynamic service connection read only view of all end point
+- Headers are headers written in the REST call to the service
+- Use transform scripts to change the REST API request and response to handle function such as Pagination, Filtering and Sorting
+- The source tab show interlly stored service connection defintion in OpenAPI compliant JSON Format; connection setting, response, request defintion and other prarametre
+- **Backend** is a collection of servers that your visual application uses to access REST endpoints in a known resources, such as Oracle Cloud Application or Integration
+- Each backend is associated with one or more server, each server has different instance, backend instance are defined in tenant setting of VB
+- You can choose to override the tenant-level defintion for a single application either to customize and existing backend
+- Some backed service types are: Oracle Cloud Application, Integration, Process, Custom, Custom ADF Describe
+- Only one type of backend can be added per backed in a visual application
+- Multiple server can be added for every backend type, each associated with 1 app profile
+- Creating a service connection: Using a Service catalog, Providing the Document Descriptor for the service and Using an Endpoint
+- You can create a dynamic servie connetion whe nyour application is in development and then convert the dynamic connection to a static connection when your application is ready for prod.
+- |service connedtion option|Advantages|Disadvantages|
+  |-|-|-|
+  |Copy full OpenAPI to your application(static)|Better performance|Application is out of sync|
+  |Dynamically retrive metadata (Dynamic)|Provide most up to date service| Performance impacted|
+  |Copy minimal OpenAPI to app (recommended)(Static+dynamic)|Optimal performance|Impacted|
+- Supported service descriptor types:(Creating a External Service Connection(No Catalog)) Open API/Swagger, Oracle ADF Describe
+- Create an External Service Connetion (No Descriptor): use a REST API endpoint if descriptor is not available
+- Edit service connetion definition if swagger descriptor is missing or incomplete or to override existing service definition
+- Pagination function that limits the number of records that are displayed on a page in REST
+- You can modify the following when editing a service connection: ADD A SERVER, ADD MORE SERVICE ENDPOINTS, EDIT SERVICE ENDPOINTS, EDIT AUTHENTICATION DETAILS, ADD TRANSFORM
+- Tokens are way of encoding the alling use identity into a string according to different specification such as SAML or JWT format
+- Authentication mechanism that use the identity propagation type of mechanism are:
+  - Oracle Cloud Account, User Assertion OAuth 2.0, Propagate Current User Identity (Delegate Authentication)
+  - 
+- 
