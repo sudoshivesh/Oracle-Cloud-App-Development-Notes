@@ -68,5 +68,6 @@
 - Tokens are way of encoding the alling use identity into a string according to different specification such as SAML or JWT format
 - Authentication mechanism that use the identity propagation type of mechanism are:
   - Oracle Cloud Account, User Assertion OAuth 2.0, Propagate Current User Identity (Delegate Authentication)
+- Fixed Credential Authentication Mechanism : None (doesn't need any kind of authentiation), Basic, Client Credential OAuth 2.0, Resource Owner OAuth 2.0, Oracle Cloud Infrastructure API Signature 1.0
   - 
 - 
