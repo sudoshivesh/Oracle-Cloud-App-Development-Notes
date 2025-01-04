@@ -123,4 +123,37 @@
   - **USING GROOVY IN YOUR APPLICATION**
   - shorter script: Calculate formula field value and fields default value
   - longer scripts: filed level validation rule, object level validation rule, trigger to complement defualt processing, resuable behavour in object function
-  - In groovy, to detect wheather the child row iterator is empty or not, you can use the first() method. if return null, then the row iterator's row set is empty
+  - In groovy, to detect wheather the child row iterator is empty or not, you can use the first() method. if return null, then the row iterator's row set is empty. Always store child collection you want to work with in a local variable.
+  - The log view (assist in debugging) is only accessible from the standalone visual builder design Time Editor NOT a VBS Workspace.
+  - Enable Role based sexurity to control access to your business object through REST endpoints for both apps and external clients
+  - Here business object security define restrictions to data itself
+  - All business objects are unsecured by default. you must explicitly restrict access
+
+-To ddefine business rules for each business object, you can create
+  - Object Trigger, Field trigger, Object validator, field validator, Object functions
+  - Business rules always run on the server and work the same way no matter how a business object is updated (whether through REST API calls or Groovy scripts)
+  - Object Function : useful for encapsulating busines logic for a specific business object
+  - After you define an object function you can call the function by name
+  - Any of your script can call the reusable code  you write in object function
+  - Oracle recomment limiting each script to 400 lines. Also decompose a lengthy script in to shorter that invokes object function as needed.
+
+- Biew and Manage Data for Business Objects
+  - Use the data tab to modify export and import the data in custom business object
+  - external service se data ko sirf development status me hi dekh sakte hai baaki case me sabhi state me dekh sakte hai (custom business object)
+  - You can't use the **Data Manager** to manage business object data for external service.
+- You can perform bulk import and export of data from the command line using the Visual Builder APIs using basic authentication; to import use **POST** method
+- Export data from the command line: the result of exporting the data for an application is ZIP archieve containing a .csv file for each business object in application; use GET method
+- to change the data type click the TYPE icon for each field to open a pop-up box where you can modify the type.
+- What is Diagrammer?
+  - With the diagrammer, you can create diagram for your business object to show their fields and relationships
+  - help to perform folowing task: to see object properties pane where you can view or edit overview information
+  - to see field's properties pane, to edit its properties
+  - show or hide field
+- The diagrammer shows the selected business object and thier field with name and type and relationship between object and object accessor
+- you can save the diagrammer as a .PNG or SVG graphics file
+- Use dagrammer to create new business object, add field to existing business object, edit exisiting business obejct and create new relationship. (+ new relationship tab)
+
+- Control Data Caching for Business Object
+- define a caching strategy to safely store your business object's data and imporve perfirmance when application doesnt include sensitive data
+- ![image](https://github.com/user-attachments/assets/5e21c90b-1444-4de3-88af-6c7fc503aa02)
+
