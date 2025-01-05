@@ -37,4 +37,45 @@
   - 1. To create an application based on QuickStart App, choose the option Start with a QuickStart.
     2. To create an application from scratch, choose the option Create an Application.
     3. To create an application based on already created application
-- 
+- SNAPSHOT : It is a read-only copy of an application at a particular moment. You can't open them for editing. You can Create a snapshot from the last published version of an application.
+- You can view the content of snapshot
+- Export an application based on snapshot - Deploy and application and Delete
+- Participant with owner or editor permission can create a snapshot
+- APPLICATION ROLES
+- Use application roles to model the users, groups, or system that perform the work your business process represent. The predefined roles are: Process Owner, Reviewer, Analytics Viewer, Automatic Handler
+
+
+### Develop Structured Process
+- Structure Process
+  - is a sequence of task, that after peformed, results in well defined outcome.
+  - BPMN (Business Process Model and Notation, define the flow and behaviour
+  - A process instance refer to a specific instance of a process.
+  - new structure process are synchronous and after creating a new process you can change the type to Asynchronous, Manual or Resusable
+  - Component of a Structured Process
+  - Flow Element ( Tasks, Events, Gateways, Sequence Flows) and Data Objects are component
+  - Data Object : used to define and store the information used by a process. Also DO are variables that are defined during the modelling and implemenatation of a process
+- Steps to Create Structured Process:
+  - Create -> Assign -> Design -> Configure -> Define -> Associate
+- Application roles are defined for the entire application. They can be shared by all the processes in your application
+- Swimlanes : Horizontal lines that run across the process editor canvass. All flow elements must be placed within a swimlane
+- Elements : Elements are BPMN based. Used by dragging and dropping onto process editor canvas. After addign an element, you define its PROPERTIES, DATA ASSOCIATION, FORMS & SEQUENCE FLOW where they apply...
+  - Elements are categorised into following types
+  - Human, System, Events, Gateways, Insights, Integrations, Others
+  - Human : Submit , Approve
+  - System :  Data Mapper, Service, Call, Send, Notify
+  - Event : Start, Form Start, Message Start, End, Error Boundary
+  - Gateway : Exclusive, Inclusive, Parallel, Event Based
+  - Integrations : Integration
+  - Other : Note
+- Communication Between Process
+  - Processes can interact using Message start and message end event, send and recieve activities, or message throw message catch events. Process can also call other processes or include subprocesses
+
+- Working with human task
+- Three aspect define how humans interact with a business process:
+  1. A HUMAN TASK in the process defines when an interaction occurs
+  2. A HUMAN TASK IMPLEMENTATION define how the interaction occurs and who perform the task
+  3. A WEB FORM defines the UI for task
+- There are two type of HUMAN TASK :  Submit and Approve
+
+### Develop Dynamic Process
+
