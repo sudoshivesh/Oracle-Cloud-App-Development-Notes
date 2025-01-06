@@ -196,7 +196,7 @@
     - EDI X12 are provided with B2B for Oracle Integration
     - map is automatically added after trigger has been configured
     - use case for needing to add an ad hoc mapper is within branches of a **Switch** activity
-    - Stage file at page number 331
+    - Stage file at page number differ from FTP Adapters or file adapters, is similar in functionality to adapters, can also read and unzip regranced files, can read files in staged location
     - 2. Call: Integration, javascript, Process
     - 3. Collection: For Each, Scope, Switch, While
     - 4. Genral: Logger, Note, Notification, Wait
