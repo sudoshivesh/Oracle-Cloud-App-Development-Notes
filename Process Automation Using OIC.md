@@ -199,5 +199,4 @@
   - To Create and deploy a snapshot:
   - Activate-> enter name -> assign runtime version id -> select overwrite -> activate
 
-
-### 9. Develop Smart Processes
+- 
