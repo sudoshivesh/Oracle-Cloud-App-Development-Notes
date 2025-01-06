@@ -120,3 +120,84 @@
   - create simple expression that uses a **Form.getWebForm**
  
 ## Manage Application Data
+- Managing data in Process Application includes defining, associating and manipulating data.
+- Data is stored within a data object also called business object
+- Business object are defined based on complex data types called business types reffered as business object and business exception
+- A BO is a complex data type that groups together related data
+- BO can be created using scratch using business object editor or automatically by importing an XSD.
+- Business object are auto generated when designing forms using form-first design
+- STEPS TO MANAGE DATA IN PROCESS APPLICATION
+- Define business types->Create BO/ data objects-> Configure data association and transformation-> Define expression-> Create business indicators -> Define i/o arguments
+- Define how data is stored and manipulated is part of the design and development of a Process Application
+- Business types - such as Business objects, business exceptions, and Enum objects define the data structure used within your process application
+- ---------------------------------------------------
+- Business Object let you group related type sof data together to define data structure required for your process Application
+- Either Create Business Object MANUALLY or base then on a XML Schema Definition (XSD).
+- After defining Business Object, you can use them to define data object to store the data
+- When Defining BO, the following element should be defined:
+  - Modules : Modules are containers that enable you to create a hierarchical structure. Each BO must be conatined in a module. when you create a new BO, its automatically created within BusinessData modules
+  - Business Objects : within a module you can define one or more BO. A BO can contain other BO 
+  - Attributes : represents a characterstics of real-world concept. Attributes define particular piece of Process data that are stored and can be shared among process activities.
+- DEFINE BUSINESS OBJECT USING XML SCHEMA
+  - You can import business object that are based on an XML Schema (XSD) file. During the process you define the hierarchical relationship between modules and business objects.
+- Data Object are the variable used to store the information used by your business processes defined during the design and implementation stage of a process
+- Process -> Data Objects -> Add -> Enter name -> select type -> Create -> Close
+- Business Exception and Enum objects can be defined based on complex or business data types
+- Business Object defined : Based on XSD, based on FORMS, Business type explicitly
+-  ASSOCIATE and MANIPULATE DATA
+  - Data association and Transformation are done in Process Flow Elements such as -
+  - Human task, Conditional, Timer catch events, Notification tasks, sub process tasks
+  - You can use  **Expression Editor** to **evaluate and perform calculations** on data in data objects using **operator and functions**
+- DATA ASSOCIATION AND TRANSFORMATION
+  - Transformation is a special type of data association b/w input and output data types that don't match. Its simply maps thier type. it is reusable so configure once and use throughout.
+  - You can control the execution of data association at runtime by adding condition to them in the data association editor. A data association that has been configured with conditional mapping executes at runtime only when the defined condition fulfils otherwise it fails.
+
+
+### 8. Create Decision
+- Decision Model in Process Application
+  - Decision is a **container** in the process applications, in which **if/then rules or decision tables** are created along with other rule artifacts.When decisions are created, it is mandatory to define input and output data objects. These data objects **cannot be deleted or added after the decision is created.**
+  - The data objects are used in the if/then rules and decision tables as input and output parameters, respectively.
+ 
+  - Use the decision model framework to express a full range of automated decisions. Model your decisions as a tree of simple decisions, each automated using decision tables and simple expressions instead of production rules. Enter expressions in a simple standard expression language without worrying about quotation marks or special formatting. Then activate and use your decision models in one or more applications, and easily modify them as needed.
+
+- Working with Decision Models
+  - In a process, a Decision Model is used to determine **decision that automate** POLICY, COMPUTATIONS and REASONING
+  - DM is consit of following elements:
+  1. Decision and sub-Decision along with implementation logic
+  2. Input data and types
+  3. Associated Decision Services
+  - It facilitates the modelling of complex decision as a hierarchy of simple decisions
+- Steps to Create a Decision Model
+  - Define a decision model which as a container holds various decision artifacts.
+  - Add decisions and sub-decisions to the defined decision model.
+  - Define the input data and its data type for the decisions.
+  - Model the decision logic.
+  - Test the decisions.
+  - Create a decision service.
+  - Create snapshots of the decision model and activate them.
+- Creating a Decision Models
+  - Processes -> Decision Models -> Create -> Create Decision Model -> Create
+  - Some avaialble logic types in Decision:
+  - Empty Decision, Decision Table, Expression, Context, if-then-else, function, context, relation, List
+- Define EXPRESSION with Friendly Enough Expression Language (FEEL)
+  - Decision Modelling and Notation (DMN) represents all decision in a Decision Model
+  - FEEL is used in DMN which define expressions in a decision model
+  - FEEL used in Decision Expresion has following language constructs
+  - Data Type, Grammer Rule, Built-in Functions, Lists
+- In process, FEEL is used to define expression within all notation of : **Decision Logic, Decision Tables**
+- Data type in Decision : Text, Number, Boolean, Data and Time, Complex
+- You can use bottom-up approach to define the logic within decision model
+- TEST DECISION
+  - Click test play icon -> Input data -> Start Test ->  View Result -> Click each green check mark -> Go Back and repeat step 1 to 3
+- EXPOSE DECISION AS A SERVICE
+   - To use your decision model in one or more Process Application, you must add atleast one decision service in the decision model before you deploy the decision model
+   - Expand Service Pane -> Add new service -> Enter a name for decision service - > Ok -> Choose output decision and input data
+- ACTIVATE DECISION AND CREATE SNAPSHOT
+- DM Snapshots are read-only copies of a decision model at a particular moments
+- You can -
+  - Create a snapshot at any point, view the content, delete a snap, export a snap to your local file system
+  - To Create and deploy a snapshot:
+  - Activate-> enter name -> assign runtime version id -> select overwrite -> activate
+
+
+### 9. Develop Smart Processes
