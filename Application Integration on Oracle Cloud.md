@@ -191,11 +191,16 @@
     - Scope fault handlers
 - You cannot **Delete** a trigger connection connection in an integration (Delete option isn't available)
 - Action are organized into five sections: (with thier functionality)
-    - Data: Assign, EDI Translate, Map, Stage File
-    - Call: Integration, javascript, Process
-    - Collection: For Each, Scope, Switch, While
-    - Genral: Logger, Note, Notification, Wait
-    - End: Re-throw fault, Throw new Fault, Fault Return, Return, Callback, Stop
+    - 1. Data: Assign, EDI(Electronic Data Interchange) Translate, Map, Stage File  Page- 326
+    - Variable created inside scope, for each lopp or while loop, wont visible outside the scope or loop.
+    - EDI X12 are provided with B2B for Oracle Integration
+    - map is automatically added after trigger has been configured
+    - use case for needing to add an ad hoc mapper is within branches of a **Switch** activity
+    - Stage file at page number 331
+    - 2. Call: Integration, javascript, Process
+    - 3. Collection: For Each, Scope, Switch, While
+    - 4. Genral: Logger, Note, Notification, Wait
+    - 5. End: Re-throw fault, Throw new Fault, Fault Return, Return, Callback, Stop
 
 
 
