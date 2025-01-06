@@ -31,18 +31,23 @@
 
 
 ### Create and Manage Application
+- QuickStart Apps and Sample applicaion are located in the gallery. They are ready to use customizable and fully built
+- Developers can easily build process application without any process knowledge
 - Using the QuickStart Apps, developers can easily build process applications without any knowledge on BPMN. (Business Process Modeling Notation)
 - On creating an application based on a QuickStart App, a copy of the pre-built application will be created with the name of the process application being created
 - A process application can be created from the Process Application home page by clicking on Create button. It Shows THREE option
-  - 1. To create an application based on QuickStart App, choose the option Start with a QuickStart.
+  - 1. To create an application based on **QuickStart App**, choose the option Start with a QuickStart.
     2. To create an application from scratch, choose the option Create an Application.
-    3. To create an application based on already created application
+    3. To create an application based on already created application.
+    Simply - Start with quickstart, import an application(.exp), create an application (scratch)
+
 - SNAPSHOT : It is a read-only copy of an application at a particular moment. You can't open them for editing. You can Create a snapshot from the last published version of an application.
 - You can view the content of snapshot
 - Export an application based on snapshot - Deploy and application and Delete
 - Participant with owner or editor permission can create a snapshot
 - APPLICATION ROLES
 - Use application roles to model the users, groups, or system that perform the work your business process represent. The predefined roles are: Process Owner, Reviewer, Analytics Viewer, Automatic Handler
+- Application snapshots in Process can be exported to your local file system as .exp
 
 
 ### Develop Structured Process
