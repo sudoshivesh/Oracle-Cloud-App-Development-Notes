@@ -198,12 +198,30 @@
     - use case for needing to add an ad hoc mapper is within branches of a **Switch** activity
     - Stage file at page number differ from FTP Adapters or file adapters, is similar in functionality to adapters, can also read and unzip regranced files, can read files in staged location
     - 2. Call: Integration, javascript, Process
+    - Al llibrary function that have been classified as Orchestration will appear in the list of callable function
     - 3. Collection: For Each, Scope, Switch, While
+    - Executes one or more actions or Invokes
+    - Scopes provide a context for child elements. Most oftern used for defining fault handler
+    - Switch add one or more routing expression to define switch branches
+    - While execute one or more actions or invokes until condition is met
     - 4. Genral: Logger, Note, Notification, Wait
+    - Logger: Logs messages to the activity stream and disgnostic log
+    - Note: is a design time placeholder for developer notes
+    - Notification: send s email messgae to one or more reciepient
+    - Wait: Provide a delay to the execution of an Integration flow
     - 5. End: Re-throw fault, Throw new Fault, Fault Return, Return, Callback, Stop
+    - Used only within a fault handler, Creates and throws a new fault, executes and immidiate fault, executes a callback, end integration flow
 
 
-
-
+### Additional OIC Capabilities
+- Orchestration Styles : **App Driven** (Interface invoked by a client application) and **Scheduled** (Executes automatically or on demand)
+- Creating a Schedule : Basic Schedule (10 min) and Advance Schedule (1 min)
+- second integration run don't copy the same file
+- You can locate and manage errors from the Errors page using the following filters:
+    - All Integration Instances
+    - Errors by Integration
+    - Errors by Connection
+    - Error Recovery Jobs
+- 
 
 
