@@ -32,7 +32,9 @@
 - **Application Integration** connects all of SaaS and On-premises business application 6-10 times faster using prebuilt adapter to simplify the technical complexity of dealing with low level API
 - **Process Automation** helps BA, App IT, and Integration Specialist collborate in parallel using prebuilt example recipe which combine source and target application adapter with a trigger and a example data map.
 - **Visual Builder** - Gives you a quick way to extend SaaS and on-premises application with drag and drop tooling for mobile apps in minutes.
-- Oracle Integration is available in mainly two edition - i)Standard ii)Enterprise
+- Oracle Integration is available in mainly two edition -
+    - i)Standard : Process Automation, B2B, Integration Insight  **NAHI HOTA HAI**, BAAKI SARA OPTION HOTA HAI
+    - ii)Enterprise : Isme SAB HOTA HAI
 
 **Oracle Integration Cloud Services** - 
 - Create and manage Integration(Integration) -> *Create the connection to the applications you want to share data with. Then set up the integration, which uses the connection you created and define how data is shared between your application*
