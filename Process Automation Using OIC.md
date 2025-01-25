@@ -10,8 +10,8 @@
     |Design| Automate , Manage|
     |Composer|Workspace|
     |Graphics tools, Quickstart apps, Test environment, process application|stay organised, share docs and collaborate,tool to track process, view complete reassign and delegate|
-  - BPMN -> Business Process Model and Notation
-  - WSDL - Web Service Description Language
+  - BPMN -> Business Process Model and Notation   (This is language)
+  - WSDL - Web Service Description Language       (These below two are technology)
   - REST -> Represenational State Transfer
 - Process Role
   - | Process Role| Details | Note |
